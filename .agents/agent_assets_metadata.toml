@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "C_0tYP6dsBABFV00Lxnkz"
+uri = "file://flora-max-media.zip"
+type = "unspecified"
+title = "flora-max-media.zip"
