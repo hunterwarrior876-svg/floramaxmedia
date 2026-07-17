@@ -223,40 +223,16 @@ export default function Home() {
       </section>
 
       {/* Video Showcase Section */}
-      <section className="py-20 md:py-28 bg-[#050505] border-t border-white/5">
-        <div className="container mx-auto px-6 lg:px-12">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-80px" }}
-            transition={{ duration: 0.7, ease: "easeOut" }}
-            className="text-center mb-10"
-          >
-            <span className="text-xs uppercase tracking-[0.3em] text-primary font-semibold">Watch Our Story</span>
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mt-3 text-white">
-              See What We Create<span className="text-primary">.</span>
-            </h2>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.97 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-80px" }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
-            className="relative max-w-4xl mx-auto rounded-sm overflow-hidden"
-            style={{ boxShadow: '0 0 0 1px rgba(212,175,55,0.2), 0 40px 80px -20px rgba(0,0,0,0.8)' }}
-          >
-            <video
-              src={videoSrc}
-              autoPlay
-              muted
-              loop
-              playsInline
-              controls
-              className="w-full aspect-video object-cover"
-            />
-            <div className="absolute inset-0 pointer-events-none ring-1 ring-inset ring-primary/20 rounded-sm" />
-          </motion.div>
-        </div>
+      <section className="bg-[#050505] border-t border-white/5">
+        <video
+          src={videoSrc}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full block"
+          style={{ display: 'block' }}
+        />
       </section>
 
       {/* About Section */}
