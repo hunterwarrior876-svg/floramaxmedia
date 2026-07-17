@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Flora Max Media"
+version = "1.0.0"
+id = "artifacts/flora-max-media"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18148
+
+[services.development]
+run = "pnpm --filter @workspace/flora-max-media run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/flora-max-media", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/flora-max-media/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18148"
+BASE_PATH = "/"

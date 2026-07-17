@@ -1,0 +1,369 @@
+Flora Max Media – Complete Website Development Prompt
+
+Update my website into a premium international digital agency website inspired by Notionhive, Vercel, Stripe, Linear, Framer, and Apple. The website should look like a world-class agency serving businesses globally.
+
+Uploaded Assets
+Asset 1
+
+Use the uploaded F favicon image as the website favicon.
+
+Requirements:
+
+Convert to favicon.ico if necessary.
+Replace all default Bolt/Replit favicons.
+Update all favicon references.
+Ensure it displays correctly on all browsers and mobile devices.
+Asset 2
+
+Use the uploaded Flora Max intro video as the homepage hero background.
+
+Requirements:
+
+Hero background only.
+Do NOT create a loading screen.
+Homepage opens immediately.
+Autoplay.
+Muted.
+Loop infinitely.
+object-fit: cover.
+Responsive on desktop, tablet and mobile.
+Add a 45% dark overlay.
+Optimize for fast loading.
+Website Style
+
+Create a website that feels:
+
+Luxurious
+Premium
+Minimal
+Elegant
+Modern
+Timeless
+High-end
+Technology focused
+
+Inspired by:
+
+Notionhive
+Apple
+Vercel
+Linear
+Stripe
+
+No humans.
+
+No stock office photos.
+
+No unnecessary graphics.
+
+Use premium abstract backgrounds and subtle animations.
+
+Color Palette
+
+Primary:
+Matte Black (#0A0A0A)
+
+Secondary:
+White (#FFFFFF)
+
+Accent:
+Metallic Gold (#D4AF37)
+
+Typography:
+Modern premium sans-serif.
+
+Large spacing.
+
+Minimal design.
+
+Navigation Bar
+
+Transparent.
+
+Sticky.
+
+Blur effect while scrolling.
+
+Left:
+Flora Max Media logo
+
+Right:
+
+Home
+Services
+Portfolio
+Process
+About
+Contact
+
+Also place social icons at the top-right:
+
+Facebook
+Instagram
+X (Twitter)
+
+Use the official icons only.
+
+Leave the links empty for now so I can add them later.
+
+Hero Section
+
+Headline:
+
+Premium Web Development &
+AI Digital Solutions
+
+Subheadline:
+
+We build modern websites, AI chatbots, mobile apps, promotional videos, hosting solutions, and digital experiences that help businesses grow.
+
+Buttons:
+
+Primary:
+Get Started
+
+Secondary:
+View Portfolio
+
+Use the uploaded hero video as background.
+
+Add elegant fade-up animations.
+
+About Flora Max Media
+
+Create a premium About section.
+
+Mention that Flora Max Media provides:
+
+Website Development
+Mobile App Development
+AI Chatbots
+AI Automation
+Promotional Video Ads
+Hosting & Domains
+UI/UX Design
+SEO & Digital Marketing
+
+Mission:
+
+Helping businesses grow through premium digital solutions, modern technology, automation, and exceptional user experience.
+
+Vision:
+
+To become a globally trusted digital agency delivering innovative web, AI, and marketing solutions for businesses of every size.
+
+Services
+
+Create beautiful premium glass cards.
+
+Services:
+
+🌐 Website Development
+
+📱 Mobile App Development
+
+🤖 AI Chatbots
+
+⚙️ AI Automation
+
+🎥 Promotional Video Ads
+
+☁️ Hosting & Domain
+
+🎨 UI/UX Design
+
+📈 SEO & Digital Marketing
+
+Hover animations.
+
+Glassmorphism.
+
+Smooth transitions.
+
+Portfolio
+
+Premium portfolio section.
+
+Large website mockups.
+
+Laptop and mobile mockups.
+
+Elegant hover animations.
+
+Placeholder projects that I can replace later.
+
+Process
+
+Beautiful timeline.
+
+Discovery
+
+↓
+
+Planning
+
+↓
+
+Design
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Launch
+
+↓
+
+Support
+
+Smooth animations while scrolling.
+
+Why Choose Flora Max
+
+Premium animated cards.
+
+Examples:
+
+Modern Design
+
+Fast Delivery
+
+Premium Quality
+
+AI Powered
+
+Business Focused
+
+Responsive Design
+
+Worldwide Support
+
+Statistics
+
+Animated counters.
+
+Projects Completed
+
+Happy Clients
+
+Client Satisfaction
+
+Support Availability
+
+Use realistic placeholder values.
+
+Testimonials
+
+Luxury glass cards.
+
+Placeholder testimonials.
+
+Smooth animations.
+
+Contact Section
+
+Display:
+
+📞 Call Icon
+
+01955532951
+
+Leave email and address placeholders.
+
+Contact form.
+
+Google Map placeholder.
+
+Footer
+
+Modern premium footer.
+
+Include:
+
+Flora Max Media
+
+Quick Links
+
+Services
+
+Contact
+
+Social Icons
+
+Copyright
+
+Animations
+
+Use premium animations throughout.
+
+Examples:
+
+Fade Up
+
+Fade Left
+
+Fade Right
+
+Scale
+
+Smooth Hover
+
+Floating Cards
+
+Button Hover
+
+Image Hover
+
+Text Reveal
+
+Scroll Reveal
+
+Parallax where appropriate.
+
+Animations must be smooth and elegant.
+
+No flashy effects.
+
+Performance
+
+Optimize everything.
+
+Fast loading.
+
+Responsive.
+
+SEO friendly.
+
+Modern code.
+
+Accessible.
+
+SEO
+
+Update metadata.
+
+Title:
+
+Flora Max Media | Premium Web Development, AI & Digital Solutions
+
+Description:
+
+Flora Max Media builds premium websites, AI chatbots, mobile apps, promotional videos, hosting solutions, and digital marketing experiences that help businesses grow.
+
+Use the uploaded favicon.
+
+Prepare the Open Graph image so I can replace it later if needed.
+
+General Requirements
+Remove every Bolt/Replit branding.
+Keep the design clean and luxurious.
+Use premium spacing.
+Keep everything fully responsive.
+Use only subtle, premium animations.
+Build the website so it looks like an international digital agency capable of attracting high-paying clients from Europe and worldwide.
