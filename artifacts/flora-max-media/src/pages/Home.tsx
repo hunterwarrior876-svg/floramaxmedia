@@ -194,7 +194,7 @@ export default function Home() {
               We build modern websites, AI chatbots, mobile apps, promotional videos, hosting solutions, and digital experiences that help businesses grow.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
-              <Button onClick={() => scrollTo('contact')} size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-14 rounded-none text-base tracking-widest uppercase w-full sm:w-auto">
+              <Button onClick={() => scrollTo('contact')} size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-14 rounded-none text-base tracking-widest uppercase w-full sm:w-auto border-0">
                 Get Started
               </Button>
               <Button onClick={() => scrollTo('portfolio')} size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black font-semibold px-8 h-14 rounded-none text-base tracking-widest uppercase w-full sm:w-auto bg-transparent">
