@@ -172,18 +172,13 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative h-[100dvh] flex items-center justify-center overflow-hidden">
-        <motion.div style={{ y }} className="absolute inset-0 z-0 w-full h-[120%] -top-[10%]">
-          <video 
-            src={videoSrc}
-            autoPlay 
-            muted 
-            loop 
-            playsInline
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/45" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background" />
-        </motion.div>
+        {/* Dark gradient background instead of video */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#0a0a0a]" />
+          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, #D4AF37 1px, transparent 0)', backgroundSize: '40px 40px' }} />
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/3 rounded-full blur-3xl" />
+        </div>
 
         <div className="container relative z-10 px-6 mx-auto text-center mt-20">
           <motion.div
@@ -225,6 +220,43 @@ export default function Home() {
             />
           </div>
         </motion.div>
+      </section>
+
+      {/* Video Showcase Section */}
+      <section className="py-20 md:py-28 bg-[#050505] border-t border-white/5">
+        <div className="container mx-auto px-6 lg:px-12">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            className="text-center mb-10"
+          >
+            <span className="text-xs uppercase tracking-[0.3em] text-primary font-semibold">Watch Our Story</span>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mt-3 text-white">
+              See What We Create<span className="text-primary">.</span>
+            </h2>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.97 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
+            className="relative max-w-4xl mx-auto rounded-sm overflow-hidden"
+            style={{ boxShadow: '0 0 0 1px rgba(212,175,55,0.2), 0 40px 80px -20px rgba(0,0,0,0.8)' }}
+          >
+            <video
+              src={videoSrc}
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+              className="w-full aspect-video object-cover"
+            />
+            <div className="absolute inset-0 pointer-events-none ring-1 ring-inset ring-primary/20 rounded-sm" />
+          </motion.div>
+        </div>
       </section>
 
       {/* About Section */}
