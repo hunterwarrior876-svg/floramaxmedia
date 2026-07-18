@@ -193,14 +193,6 @@ export default function Home() {
             <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
               We build modern websites, AI chatbots, mobile apps, promotional videos, hosting solutions, and digital experiences that help businesses grow.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
-              <Button onClick={() => scrollTo('contact')} size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-14 rounded-none text-base tracking-widest uppercase w-full sm:w-auto border-0">
-                Get Started
-              </Button>
-              <Button onClick={() => scrollTo('portfolio')} size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black font-semibold px-8 h-14 rounded-none text-base tracking-widest uppercase w-full sm:w-auto bg-transparent">
-                View Portfolio
-              </Button>
-            </div>
           </motion.div>
         </div>
 
@@ -489,31 +481,6 @@ export default function Home() {
               </div>
             </motion.div>
 
-            <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="bg-white/[0.02] border border-white/10 p-10 rounded-2xl">
-              <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="space-y-2">
-                    <label className="text-sm text-gray-400 uppercase tracking-widest">Name</label>
-                    <input type="text" className="w-full bg-transparent border-b border-white/20 px-0 py-3 text-white focus:outline-none focus:border-primary transition-colors placeholder:text-gray-700" placeholder="John Doe" />
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-sm text-gray-400 uppercase tracking-widest">Email</label>
-                    <input type="email" className="w-full bg-transparent border-b border-white/20 px-0 py-3 text-white focus:outline-none focus:border-primary transition-colors placeholder:text-gray-700" placeholder="john@example.com" />
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm text-gray-400 uppercase tracking-widest">Subject</label>
-                  <input type="text" className="w-full bg-transparent border-b border-white/20 px-0 py-3 text-white focus:outline-none focus:border-primary transition-colors placeholder:text-gray-700" placeholder="Project Inquiry" />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm text-gray-400 uppercase tracking-widest">Message</label>
-                  <textarea rows={4} className="w-full bg-transparent border-b border-white/20 px-0 py-3 text-white focus:outline-none focus:border-primary transition-colors resize-none placeholder:text-gray-700" placeholder="Tell us about your project..."></textarea>
-                </div>
-                <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold h-14 rounded-none text-base tracking-widest uppercase mt-4">
-                  Send Message
-                </Button>
-              </form>
-            </motion.div>
           </div>
 
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="w-full h-[400px] bg-neutral-900 border border-white/10 rounded-2xl flex items-center justify-center overflow-hidden relative group">
