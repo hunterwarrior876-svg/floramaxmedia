@@ -172,13 +172,8 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative h-[100dvh] flex items-center justify-center overflow-hidden">
-        {/* Dark gradient background instead of video */}
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#0a0a0a]" />
-          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, #D4AF37 1px, transparent 0)', backgroundSize: '40px 40px' }} />
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/3 rounded-full blur-3xl" />
-        </div>
+        {/* Pure black background */}
+        <div className="absolute inset-0 z-0 bg-black" />
 
         <div className="container relative z-10 px-6 mx-auto text-center mt-20">
           <motion.div
@@ -196,22 +191,6 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* Scroll Indicator */}
-        <motion.div 
-          initial={{ opacity: 0 }} 
-          animate={{ opacity: 1 }} 
-          transition={{ delay: 1, duration: 1 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10"
-        >
-          <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400">Scroll</span>
-          <div className="w-[1px] h-12 bg-white/20 relative overflow-hidden">
-            <motion.div 
-              animate={{ y: [0, 48] }} 
-              transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
-              className="absolute top-0 left-0 w-full h-1/2 bg-primary"
-            />
-          </div>
-        </motion.div>
       </section>
 
       {/* Video Showcase Section */}
