@@ -4,7 +4,6 @@ import { FaFacebookF, FaInstagram, FaPhone, FaEnvelope, FaMapMarkerAlt, FaBars, 
 import { FaXTwitter } from 'react-icons/fa6';
 import { Button } from '@/components/ui/button';
 
-import logoSrc from "@assets/kaka_1784317420826.png";
 import videoSrc from "@assets/lol_(online-video-cutter.com)_1784317277784.mp4";
 
 // --- Components ---
@@ -119,7 +118,7 @@ export default function Home() {
       <nav className={`fixed top-0 w-full z-50 transition-all duration-500 border-b ${scrolled ? 'bg-background/80 backdrop-blur-md border-white/5 py-4' : 'bg-transparent border-transparent py-6'}`}>
         <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img src={logoSrc} alt="Flora Max Media" className="h-10 w-10 object-contain" />
+            <img src="/logo.png" alt="Flora Max Media" className="h-10 w-10 object-contain" />
             <span className="font-serif text-xl font-bold tracking-wide text-white">Flora Max<span className="text-primary">.</span></span>
           </div>
           
@@ -480,7 +479,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
             <div>
               <div className="flex items-center gap-3 mb-6">
-                <img src={logoSrc} alt="Flora Max Media" className="h-8 w-8 object-contain" />
+                <img src="/logo.png" alt="Flora Max Media" className="h-8 w-8 object-contain" />
                 <span className="font-serif text-lg font-bold tracking-wide text-white">Flora Max<span className="text-primary">.</span></span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed pr-4">
